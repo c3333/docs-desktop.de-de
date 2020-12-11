@@ -1,0 +1,58 @@
+---
+title: OpenType-Beispielschriftartenpaket
+ms.date: 03/30/2017
+helpviewer_keywords:
+- OpenType font pack [WPF]
+- fonts [WPF], OpenType font pack
+- typography [WPF], OpenType font pack
+ms.assetid: 56b46fa1-a44e-419b-8f14-25ad51c715c3
+ms.openlocfilehash: 2581241225f12a5a1de4b552351c7771c7830871
+ms.sourcegitcommit: 9f6df084c53a3da0ea657ed0d708a72213683084
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96977491"
+---
+# <a name="sample-opentype-font-pack"></a><span data-ttu-id="4d048-102">OpenType-Beispielschriftartenpaket</span><span class="sxs-lookup"><span data-stu-id="4d048-102">Sample OpenType Font Pack</span></span>
+<span data-ttu-id="4d048-103">Dieses Thema enthält eine Übersicht über die OpenType-Beispiel Schriftarten, die mit dem Windows SDK verteilt werden.</span><span class="sxs-lookup"><span data-stu-id="4d048-103">This topic provides an overview of the sample OpenType fonts that are distributed with the Windows SDK.</span></span> <span data-ttu-id="4d048-104">Die Beispiel Schriftarten unterstützen erweiterte OpenType-Funktionen, die von Anwendungen verwendet werden können [!INCLUDE[TLA#tla_winclient](../../../includes/tlasharptla-winclient-md.md)] .</span><span class="sxs-lookup"><span data-stu-id="4d048-104">The sample fonts support extended OpenType features that can be used by [!INCLUDE[TLA#tla_winclient](../../../includes/tlasharptla-winclient-md.md)] applications.</span></span>  
+
+<a name="overview"></a>
+## <a name="fonts-in-the-opentype-font-pack"></a><span data-ttu-id="4d048-105">Schriftarten im OpenType-Schriftartenpaket</span><span class="sxs-lookup"><span data-stu-id="4d048-105">Fonts in the OpenType Font Pack</span></span>  
+ <span data-ttu-id="4d048-106">Der Windows SDK bietet eine Reihe von OpenType-Beispiel Schriftarten, die Sie beim Erstellen von Anwendungen verwenden können [!INCLUDE[TLA#tla_winclient](../../../includes/tlasharptla-winclient-md.md)] .</span><span class="sxs-lookup"><span data-stu-id="4d048-106">The Windows SDK provides a set of sample OpenType fonts that you can use in creating [!INCLUDE[TLA#tla_winclient](../../../includes/tlasharptla-winclient-md.md)] applications.</span></span> <span data-ttu-id="4d048-107">Die Beispielschriftarten werden unter der Lizenz von Ascender Corporation bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="4d048-107">The sample fonts are supplied under license from Ascender Corporation.</span></span> <span data-ttu-id="4d048-108">Diese Schriftarten implementieren nur eine Teilmenge der gesamten Features, die im OpenType-Format definiert sind.</span><span class="sxs-lookup"><span data-stu-id="4d048-108">These fonts implement only a subset of the total features defined by the OpenType format.</span></span> <span data-ttu-id="4d048-109">In der folgenden Tabelle sind die Namen der OpenType-Beispiel Schriftarten aufgeführt.</span><span class="sxs-lookup"><span data-stu-id="4d048-109">The following table lists the names of the sample OpenType fonts.</span></span>  
+  
+|<span data-ttu-id="4d048-110">**Name**</span><span class="sxs-lookup"><span data-stu-id="4d048-110">**Name**</span></span>|<span data-ttu-id="4d048-111">**File**</span><span class="sxs-lookup"><span data-stu-id="4d048-111">**File**</span></span>|  
+|--------------|--------------|  
+|<span data-ttu-id="4d048-112">Kootenay</span><span class="sxs-lookup"><span data-stu-id="4d048-112">Kootenay</span></span>|<span data-ttu-id="4d048-113">Kooten.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-113">Kooten.ttf</span></span>|  
+|<span data-ttu-id="4d048-114">Lindsey</span><span class="sxs-lookup"><span data-stu-id="4d048-114">Lindsey</span></span>|<span data-ttu-id="4d048-115">Linds.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-115">Linds.ttf</span></span>|  
+|<span data-ttu-id="4d048-116">Miramonte</span><span class="sxs-lookup"><span data-stu-id="4d048-116">Miramonte</span></span>|<span data-ttu-id="4d048-117">Miramo.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-117">Miramo.ttf</span></span>|  
+|<span data-ttu-id="4d048-118">Miramonte Fett</span><span class="sxs-lookup"><span data-stu-id="4d048-118">Miramonte Bold</span></span>|<span data-ttu-id="4d048-119">Miramob.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-119">Miramob.ttf</span></span>|  
+|<span data-ttu-id="4d048-120">Pericles</span><span class="sxs-lookup"><span data-stu-id="4d048-120">Pericles</span></span>|<span data-ttu-id="4d048-121">Peric.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-121">Peric.ttf</span></span>|  
+|<span data-ttu-id="4d048-122">Pericles Light</span><span class="sxs-lookup"><span data-stu-id="4d048-122">Pericles Light</span></span>|<span data-ttu-id="4d048-123">Pericl.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-123">Pericl.ttf</span></span>|  
+|<span data-ttu-id="4d048-124">Pescadero</span><span class="sxs-lookup"><span data-stu-id="4d048-124">Pescadero</span></span>|<span data-ttu-id="4d048-125">Pesca.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-125">Pesca.ttf</span></span>|  
+|<span data-ttu-id="4d048-126">Pescadero fett</span><span class="sxs-lookup"><span data-stu-id="4d048-126">Pescadero Bold</span></span>|<span data-ttu-id="4d048-127">Pescab.ttf</span><span class="sxs-lookup"><span data-stu-id="4d048-127">Pescab.ttf</span></span>|  
+  
+ <span data-ttu-id="4d048-128">In der folgenden Abbildung wird gezeigt, wie die OpenType-Beispiel Schriftarten aussehen.</span><span class="sxs-lookup"><span data-stu-id="4d048-128">The following illustration shows what the sample OpenType fonts look like.</span></span>  
+  
+ ![Liste der Schriftartennamen im Beispiel-Schriftartpaket](./media/sample-opentype-font-pack/font-names-sample-pack.gif)  
+  
+ <span data-ttu-id="4d048-130">Die Beispielschriftarten werden unter der Lizenz von Ascender Corporation bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="4d048-130">The sample fonts are supplied under license from Ascender Corporation.</span></span> <span data-ttu-id="4d048-131">Ascender ist ein Anbieter von erweiterten Schriftartprodukten.</span><span class="sxs-lookup"><span data-stu-id="4d048-131">Ascender is a provider of advanced font products.</span></span> <span data-ttu-id="4d048-132">Auf der [Ascender Corporation Website](https://www.monotype.com/) finden Sie erweiterte oder benutzerdefinierte Versionen, um die Beispielschriftarten zu lizenzieren.</span><span class="sxs-lookup"><span data-stu-id="4d048-132">To license extended or custom versions of the sample fonts, see [Ascender Corporation's Web site](https://www.monotype.com/).</span></span>  
+  
+> [!NOTE]
+> <span data-ttu-id="4d048-133">Aus diesem Grund liegt es in Ihrer Verantwortung als Entwickler sicherzustellen, dass Sie über die erforderlichen Lizenzrechte für alle Schriftarten verfügen, die Sie in eine Anwendung einbetten oder anders verteilen.</span><span class="sxs-lookup"><span data-stu-id="4d048-133">As a developer it is your responsibility to ensure that you have the required license rights for any font you embed within an application or otherwise redistribute.</span></span>  
+  
+<a name="installing_the_fonts"></a>
+## <a name="installing-the-fonts"></a><span data-ttu-id="4d048-134">Installieren der Schriftarten</span><span class="sxs-lookup"><span data-stu-id="4d048-134">Installing the Fonts</span></span>  
+ <span data-ttu-id="4d048-135">Sie haben die Möglichkeit, die OpenType-Beispiel Schriftarten im Standardverzeichnis "Windows-Schriftarten" ( **\Windows\Fonts**) zu installieren.</span><span class="sxs-lookup"><span data-stu-id="4d048-135">You have the option of installing the sample OpenType fonts to the default Windows Fonts directory, **\WINDOWS\Fonts**.</span></span> <span data-ttu-id="4d048-136">Verwenden Sie die Systemsteuerung „Schriftarten“, um die Schriftarten zu installieren.</span><span class="sxs-lookup"><span data-stu-id="4d048-136">Use the Fonts control panel to install the fonts.</span></span> <span data-ttu-id="4d048-137">Sobald sich diese Schriftarten auf dem Computer befinden, sind Sie für alle Anwendungen verfügbar, die auf standardmäßige Windows-Schriftarten verweisen.</span><span class="sxs-lookup"><span data-stu-id="4d048-137">Once these fonts are on your computer, they are accessible to all applications that reference default Windows fonts.</span></span> <span data-ttu-id="4d048-138">Sie können eine repräsentative Anzahl an Zeichen in mehreren Schriftgraden anzeigen, indem Sie doppelt auf die Schriftartendatei klicken.</span><span class="sxs-lookup"><span data-stu-id="4d048-138">You can display a representative set of characters in several font sizes by doubling-clicking the font file.</span></span> <span data-ttu-id="4d048-139">Der folgende Screenshot zeigt die Schriftartendatei Lindsey, Linds.ttf.</span><span class="sxs-lookup"><span data-stu-id="4d048-139">The following screenshot shows the Lindsey font file, Linds.ttf.</span></span>  
+  
+ <span data-ttu-id="4d048-140">![Schriftart Lindsey &#40;OpenType&#41;](./media/typographyinwpf-04.png "TypographyInWPF_04")</span><span class="sxs-lookup"><span data-stu-id="4d048-140">![Lindsey font &#40;OpenType&#41;](./media/typographyinwpf-04.png "TypographyInWPF_04")</span></span>  
+<span data-ttu-id="4d048-141">Anzeigen der Schriftart Lindsey</span><span class="sxs-lookup"><span data-stu-id="4d048-141">Displaying the Lindsey font</span></span>  
+  
+<a name="using_the_fonts"></a>
+## <a name="using-the-fonts"></a><span data-ttu-id="4d048-142">Verwenden der Schriftarten</span><span class="sxs-lookup"><span data-stu-id="4d048-142">Using the Fonts</span></span>  
+ <span data-ttu-id="4d048-143">Es gibt zwei Methoden, um die Schriftarten in Ihrer Anwendung verwenden zu können.</span><span class="sxs-lookup"><span data-stu-id="4d048-143">There are two ways that you can use fonts in your application.</span></span> <span data-ttu-id="4d048-144">Sie können Schriftarten als Projektinhaltselemente zu Ihrer Anwendung hinzufügen, die nicht als Ressourcen in eine Assembly eingebettet werden.</span><span class="sxs-lookup"><span data-stu-id="4d048-144">You can add fonts to your application as project content items that are not embedded as resources within an assembly.</span></span> <span data-ttu-id="4d048-145">Alternativ können Sie Schriftarten als Projektresourcenelemente zu Ihrer Anwendung hinzufügen, die in die Assemblydateien der Anwendung eingebettet sind.</span><span class="sxs-lookup"><span data-stu-id="4d048-145">Alternatively, you can add fonts to your application as project resource items that are embedded within the application's assembly files.</span></span> <span data-ttu-id="4d048-146">Weitere Informationen finden Sie unter [Schriftarten mit Anwendungen verpacken](packaging-fonts-with-applications.md).</span><span class="sxs-lookup"><span data-stu-id="4d048-146">For more information, see [Packaging Fonts with Applications](packaging-fonts-with-applications.md).</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="4d048-147">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4d048-147">See also</span></span>
+
+- <xref:System.Windows.Documents.Typography>
+- [<span data-ttu-id="4d048-148">Features für OpenType-Schriftarten</span><span class="sxs-lookup"><span data-stu-id="4d048-148">OpenType Font Features</span></span>](opentype-font-features.md)
+- [<span data-ttu-id="4d048-149">Verpacken von Schriftarten mit Anwendungen</span><span class="sxs-lookup"><span data-stu-id="4d048-149">Packaging Fonts with Applications</span></span>](packaging-fonts-with-applications.md)
