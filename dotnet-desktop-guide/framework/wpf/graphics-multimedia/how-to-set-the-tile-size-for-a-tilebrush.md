@@ -1,0 +1,47 @@
+---
+title: 'Gewusst wie: Festlegen der Flächengröße für ein TileBrush-Objekt'
+ms.date: 03/30/2017
+helpviewer_keywords:
+- TileBrush [WPF], size of tile properties
+- Viewport property of TileBrush [WPF]
+ms.assetid: 04f41090-1b46-4e36-832f-d27d28708b8c
+ms.openlocfilehash: af7bab59a292549b29dad9b6a7417f22b1b84e48
+ms.sourcegitcommit: 9f6df084c53a3da0ea657ed0d708a72213683084
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96975476"
+---
+# <a name="how-to-set-the-tile-size-for-a-tilebrush"></a><span data-ttu-id="c22a5-102">Gewusst wie: Festlegen der Flächengröße für ein TileBrush-Objekt</span><span class="sxs-lookup"><span data-stu-id="c22a5-102">How to: Set the Tile Size for a TileBrush</span></span>
+
+<span data-ttu-id="c22a5-103">In diesem Beispiel wird gezeigt, wie die Kachel Größe für ein festgelegt wird <xref:System.Windows.Media.TileBrush> .</span><span class="sxs-lookup"><span data-stu-id="c22a5-103">This example shows how to set the tile size for a <xref:System.Windows.Media.TileBrush>.</span></span> <span data-ttu-id="c22a5-104">Standardmäßig erzeugt eine <xref:System.Windows.Media.TileBrush> eine einzelne Kachel, die den zu Zeichnungs Bereich vollständig ausfüllt.</span><span class="sxs-lookup"><span data-stu-id="c22a5-104">By default, a <xref:System.Windows.Media.TileBrush> produces a single tile that completely fills the area that you are painting.</span></span> <span data-ttu-id="c22a5-105">Sie können dieses Verhalten überschreiben, indem Sie die <xref:System.Windows.Media.TileBrush.Viewport%2A> Eigenschaften und festlegen <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> .</span><span class="sxs-lookup"><span data-stu-id="c22a5-105">You can override this behavior by setting the <xref:System.Windows.Media.TileBrush.Viewport%2A> and <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> properties.</span></span>
+
+<span data-ttu-id="c22a5-106">Die- <xref:System.Windows.Media.TileBrush.Viewport%2A> Eigenschaft gibt die Kachel Größe für einen an <xref:System.Windows.Media.TileBrush> .</span><span class="sxs-lookup"><span data-stu-id="c22a5-106">The <xref:System.Windows.Media.TileBrush.Viewport%2A> property specifies the tile size for a <xref:System.Windows.Media.TileBrush>.</span></span> <span data-ttu-id="c22a5-107">Standardmäßig ist der Wert der- <xref:System.Windows.Media.TileBrush.Viewport%2A> Eigenschaft relativ zur Größe des gezeichneten Bereichs.</span><span class="sxs-lookup"><span data-stu-id="c22a5-107">By default, the value of the <xref:System.Windows.Media.TileBrush.Viewport%2A> property is relative to the size of the area being painted.</span></span> <span data-ttu-id="c22a5-108"><xref:System.Windows.Media.TileBrush.Viewport%2A>Legen Sie die-Eigenschaft auf fest, damit die-Eigenschaft eine absolute Kachel Größe angibt <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> <xref:System.Windows.Media.BrushMappingMode.Absolute> .</span><span class="sxs-lookup"><span data-stu-id="c22a5-108">To make the <xref:System.Windows.Media.TileBrush.Viewport%2A> property specify an absolute tile size, set the <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> property to <xref:System.Windows.Media.BrushMappingMode.Absolute>.</span></span>
+
+## <a name="example"></a><span data-ttu-id="c22a5-109">Beispiel</span><span class="sxs-lookup"><span data-stu-id="c22a5-109">Example</span></span>
+
+<span data-ttu-id="c22a5-110">Im folgenden Beispiel wird verwendet, <xref:System.Windows.Media.ImageBrush> <xref:System.Windows.Media.TileBrush> um ein Rechteck mit Kacheln zu zeichnen.</span><span class="sxs-lookup"><span data-stu-id="c22a5-110">The following example uses an <xref:System.Windows.Media.ImageBrush>, a type of <xref:System.Windows.Media.TileBrush>, to paint a rectangle with tiles.</span></span> <span data-ttu-id="c22a5-111">Im Beispiel wird jede Kachel auf 50 Prozent um 50 Prozent des Ausgabe Bereichs (das Rechteck) festgelegt.</span><span class="sxs-lookup"><span data-stu-id="c22a5-111">The example sets each tile to 50 percent by 50 percent of the output area (the rectangle).</span></span> <span data-ttu-id="c22a5-112">Als Ergebnis wird das Rechteck mit vier Projektionen des Bilds gezeichnet.</span><span class="sxs-lookup"><span data-stu-id="c22a5-112">As a result, the rectangle is painted with four projections of the image.</span></span>
+
+<span data-ttu-id="c22a5-113">Die folgende Abbildung zeigt die Ausgabe, die im Beispiel erzeugt wird:</span><span class="sxs-lookup"><span data-stu-id="c22a5-113">The following illustration shows the output that the example produces:</span></span>
+
+![Ein Rechteck mit vier Kirschen, die das Ticken mit einem Bild Pinsel demonstrieren.](./media/how-to-set-the-tile-size-for-a-tilebrush/rectangle-tile-image-brush.png)
+
+[!code-csharp[UsingImageBrush_snip#RelativeTileSizeExample](~/samples/snippets/csharp/VS_Snippets_Wpf/UsingImageBrush_snip/CSharp/TileSizeExample.cs#relativetilesizeexample)]
+
+<span data-ttu-id="c22a5-115">Im nächsten Beispiel wird ein erstellt <xref:System.Windows.Media.ImageBrush> , dessen <xref:System.Windows.Media.TileBrush.Viewport%2A> auf `0,0,25,25` und dessen auf festgelegt <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> <xref:System.Windows.Media.BrushMappingMode.Absolute> und zum Zeichnen eines weiteren Rechtecks verwendet.</span><span class="sxs-lookup"><span data-stu-id="c22a5-115">The next example creates an <xref:System.Windows.Media.ImageBrush>, sets its <xref:System.Windows.Media.TileBrush.Viewport%2A> to `0,0,25,25` and its <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> to <xref:System.Windows.Media.BrushMappingMode.Absolute>, and uses it to paint another rectangle.</span></span> <span data-ttu-id="c22a5-116">Als Ergebnis erzeugt der Pinsel Flächen mit einer Breite und Höhe von 25 Pixeln.</span><span class="sxs-lookup"><span data-stu-id="c22a5-116">As a result, the brush produces tiles that have a width of 25  pixels and a height of 25 pixels .</span></span>
+
+<span data-ttu-id="c22a5-117">Die folgende Abbildung zeigt die Ausgabe, die im Beispiel erzeugt wird:</span><span class="sxs-lookup"><span data-stu-id="c22a5-117">The following illustration shows the output that the example produces:</span></span>
+
+![Ein Rechteck mit 48-Kirschen, das einen gekachelten TileBrush mit einem Viewport demonstriert.](./media/how-to-set-the-tile-size-for-a-tilebrush/25-x-25-viewport-tilebrush.png)
+
+[!code-csharp[UsingImageBrush_snip#AbsoluteTileSizeExample](~/samples/snippets/csharp/VS_Snippets_Wpf/UsingImageBrush_snip/CSharp/TileSizeExample.cs#absolutetilesizeexample)]
+
+<span data-ttu-id="c22a5-119">Die vorangehenden Beispiele sind Teil eines umfangreicheren Beispiels.</span><span class="sxs-lookup"><span data-stu-id="c22a5-119">The preceding examples are part of a larger sample.</span></span> <span data-ttu-id="c22a5-120">Das komplette Beispiel finden Sie unter [ImageBrush Sample](https://github.com/Microsoft/WPF-Samples/tree/master/Graphics/ImageBrush).</span><span class="sxs-lookup"><span data-stu-id="c22a5-120">For the complete sample, see [ImageBrush Sample](https://github.com/Microsoft/WPF-Samples/tree/master/Graphics/ImageBrush).</span></span>
+
+<span data-ttu-id="c22a5-121">Obwohl in diesem Beispiel die <xref:System.Windows.Media.ImageBrush> -Klasse verwendet wird, Verhalten sich die <xref:System.Windows.Media.TileBrush.Viewport%2A> -Eigenschaft und die-Eigenschaft <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> identisch für die anderen- <xref:System.Windows.Media.TileBrush> Objekte, d. h <xref:System.Windows.Media.DrawingBrush> . für und <xref:System.Windows.Media.VisualBrush> .</span><span class="sxs-lookup"><span data-stu-id="c22a5-121">Although this example uses the <xref:System.Windows.Media.ImageBrush> class, the <xref:System.Windows.Media.TileBrush.Viewport%2A> and <xref:System.Windows.Media.TileBrush.ViewportUnits%2A> properties behave identically for the other <xref:System.Windows.Media.TileBrush> objects, that is, for <xref:System.Windows.Media.DrawingBrush> and <xref:System.Windows.Media.VisualBrush>.</span></span> <span data-ttu-id="c22a5-122">Weitere Informationen zu <xref:System.Windows.Media.ImageBrush> und anderen <xref:System.Windows.Media.TileBrush> Objekten finden Sie unterzeichnen [mit Bildern, Zeichnungen und visuellen](painting-with-images-drawings-and-visuals.md)Elementen.</span><span class="sxs-lookup"><span data-stu-id="c22a5-122">For more information about <xref:System.Windows.Media.ImageBrush> and the other <xref:System.Windows.Media.TileBrush> objects, see [Painting with Images, Drawings, and Visuals](painting-with-images-drawings-and-visuals.md).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="c22a5-123">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c22a5-123">See also</span></span>
+
+- <xref:System.Windows.Media.TileBrush>
+- [<span data-ttu-id="c22a5-124">Zeichnen mit Bildern, Zeichnungen und visuellen Elementen</span><span class="sxs-lookup"><span data-stu-id="c22a5-124">Painting with Images, Drawings, and Visuals</span></span>](painting-with-images-drawings-and-visuals.md)
+- [<span data-ttu-id="c22a5-125">Erstellen von unterschiedlichen Kachelmustern mit einem TileBrush</span><span class="sxs-lookup"><span data-stu-id="c22a5-125">Create Different Tile Patterns with a TileBrush</span></span>](how-to-create-different-tile-patterns-with-a-tilebrush.md)
