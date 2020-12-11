@@ -1,0 +1,47 @@
+items:
+  - name: Docs
+    tocHref: /
+    topicHref: /
+    items:
+      - name: .NET
+        tocHref: /dotnet/
+        topicHref: /dotnet/index
+        items:
+          - name: Desktopleitfaden
+            tocHref: /dotnet/desktop
+            topicHref: /dotnet/desktop/index
+            items:
+              - name: ".NET\_Framework"
+                items:
+                  - name: Windows Forms
+                    tocHref: /dotnet/desktop/winforms
+                    topicHref: /dotnet/desktop/winforms/index
+                    items:
+                      - name: "Erweitern von Windows\_Forms-Anwendungen"
+                        tocHref: /dotnet/desktop/winforms/advanced/
+                        topicHref: /dotnet/desktop/winforms/advanced/index
+                      - name: Steuerelemente
+                        tocHref: /dotnet/desktop/winforms/controls/
+                        topicHref: /dotnet/desktop/winforms/controls/index
+              - name: Windows Presentation Foundation
+                tocHref: /dotnet/desktop/wpf/
+                topicHref: /dotnet/desktop/wpf/index
+                items:
+                  - name: Erweitert
+                    tocHref: /dotnet/desktop/wpf/advanced/
+                    topicHref: /dotnet/desktop/wpf/advanced/index
+                  - name: Anwendungsentwicklung
+                    tocHref: /dotnet/desktop/wpf/app-development/
+                    topicHref: /dotnet/desktop/wpf/app-development/index
+                  - name: Steuerelemente
+                    tocHref: /dotnet/desktop/wpf/controls/
+                    topicHref: /dotnet/desktop/wpf/controls/index
+                  - name: Daten
+                    tocHref: /dotnet/desktop/wpf/data/
+                    topicHref: /dotnet/desktop/wpf/data/index
+                  - name: Erste Schritte (WPF)
+                    tocHref: /dotnet/desktop/wpf/getting-started/
+                    topicHref: /dotnet/desktop/wpf/getting-started/index
+                  - name: Grafiken und Multimedia
+                    tocHref: /dotnet/desktop/wpf/graphics-multimedia/
+                    topicHref: /dotnet/desktop/wpf/graphics-multimedia/index
