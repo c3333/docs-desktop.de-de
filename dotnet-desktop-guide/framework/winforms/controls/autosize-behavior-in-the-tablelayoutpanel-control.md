@@ -1,0 +1,41 @@
+---
+title: Das AutoSize-Verhalten im TableLayoutPanel-Steuerelement
+ms.date: 03/30/2017
+ms.topic: overview
+helpviewer_keywords:
+- AutoSize property [Windows Forms], tableLayoutPanel control
+- controls [Windows Forms], sizing
+- localizing forms
+- layout [Windows Forms], AutoSize
+- sizing [Windows Forms], automatic
+- TableLayoutPanel control [Windows Forms], AutoSize behavior
+- automatic sizing
+- AutoSizeMode property
+ms.assetid: 9233e0c3-2fa6-405e-8701-959479b1250e
+ms.openlocfilehash: daeca48c4fcfaf83d6506ba07d60ec2dcfdcace7
+ms.sourcegitcommit: 9f6df084c53a3da0ea657ed0d708a72213683084
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96975788"
+---
+# <a name="autosize-behavior-in-the-tablelayoutpanel-control"></a><span data-ttu-id="dde3c-102">Das AutoSize-Verhalten im TableLayoutPanel-Steuerelement</span><span class="sxs-lookup"><span data-stu-id="dde3c-102">AutoSize Behavior in the TableLayoutPanel Control</span></span>
+## <a name="distinct-autosize-behaviors"></a><span data-ttu-id="dde3c-103">Eindeutige automatische Größen Verhalten</span><span class="sxs-lookup"><span data-stu-id="dde3c-103">Distinct AutoSize Behaviors</span></span>  
+ <span data-ttu-id="dde3c-104">Das- <xref:System.Windows.Forms.TableLayoutPanel> Steuerelement unterstützt das automatische Größen Anpassungs Verhalten auf folgende Weise:</span><span class="sxs-lookup"><span data-stu-id="dde3c-104">The <xref:System.Windows.Forms.TableLayoutPanel> control supports automatic sizing behavior in the following ways:</span></span>  
+  
+- <span data-ttu-id="dde3c-105">Durch die- <xref:System.Windows.Forms.Control.AutoSize%2A> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="dde3c-105">Through the <xref:System.Windows.Forms.Control.AutoSize%2A> property;</span></span>  
+  
+- <span data-ttu-id="dde3c-106">Durch die <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> -Eigenschaft der <xref:System.Windows.Forms.TableLayoutPanel> Spalten-und Zeilen Stile des Steuer Elements.</span><span class="sxs-lookup"><span data-stu-id="dde3c-106">Through the <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> property on the <xref:System.Windows.Forms.TableLayoutPanel> control’s column and row styles.</span></span>  
+  
+### <a name="the-autosize-property-with-row-and-column-styles"></a><span data-ttu-id="dde3c-107">Die AutoSize-Eigenschaft mit Zeilen-und Spalten Formaten.</span><span class="sxs-lookup"><span data-stu-id="dde3c-107">The AutoSize Property with Row and Column Styles</span></span>  
+ <span data-ttu-id="dde3c-108">In der folgenden Tabelle wird die Interaktion zwischen der <xref:System.Windows.Forms.Control.AutoSize%2A> -Eigenschaft und den <xref:System.Windows.Forms.TableLayoutPanel> Spalten-und Zeilen Stilen des-Steuer Elements beschrieben.</span><span class="sxs-lookup"><span data-stu-id="dde3c-108">The following table describes the interaction between the <xref:System.Windows.Forms.Control.AutoSize%2A> property and the <xref:System.Windows.Forms.TableLayoutPanel> control’s column and row styles.</span></span>  
+  
+|<span data-ttu-id="dde3c-109">AutoSize-Einstellung</span><span class="sxs-lookup"><span data-stu-id="dde3c-109">AutoSize setting</span></span>|<span data-ttu-id="dde3c-110">Stil Interaktion</span><span class="sxs-lookup"><span data-stu-id="dde3c-110">Style interaction</span></span>|  
+|----------------------|-----------------------|  
+|`false`|<span data-ttu-id="dde3c-111">Das <xref:System.Windows.Forms.TableLayoutPanel> -Steuerelement wird von links nach rechts fortgesetzt, und es wird Speicherplatz für die Spalte oder Zeile oder in der folgenden Reihenfolge zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="dde3c-111">The <xref:System.Windows.Forms.TableLayoutPanel> control proceeds from left to right, and allocates space for the column or row or in the following order.</span></span><br /><br /> <span data-ttu-id="dde3c-112">1. wenn die- <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> Eigenschaft auf festgelegt ist <xref:System.Windows.Forms.SizeType.Absolute> , wird die Anzahl der Pixel zugeordnet, die von oder angegeben werden <xref:System.Windows.Forms.ColumnStyle.Width%2A> <xref:System.Windows.Forms.RowStyle.Height%2A> .</span><span class="sxs-lookup"><span data-stu-id="dde3c-112">1.  If the <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> property is set to <xref:System.Windows.Forms.SizeType.Absolute>, the number of pixels specified by <xref:System.Windows.Forms.ColumnStyle.Width%2A> or <xref:System.Windows.Forms.RowStyle.Height%2A> is allocated.</span></span><br /><span data-ttu-id="dde3c-113">2. wenn die <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> -Eigenschaft auf festgelegt ist <xref:System.Windows.Forms.SizeType.AutoSize> , wird die Anzahl der Pixel zugewiesen, die von der-Methode des untergeordneten Steuer Elements zurückgegeben wird <xref:System.Windows.Forms.Control.GetPreferredSize%2A> .</span><span class="sxs-lookup"><span data-stu-id="dde3c-113">2.  If the <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> property is set to <xref:System.Windows.Forms.SizeType.AutoSize>, the number of pixels returned by the child control’s <xref:System.Windows.Forms.Control.GetPreferredSize%2A> method is allocated.</span></span><br /><span data-ttu-id="dde3c-114">3. nach dem Zuordnen von Speicherplatz für alle <xref:System.Windows.Forms.SizeType.Absolute> -und- <xref:System.Windows.Forms.SizeType.AutoSize> Spalten oder-Zeilen werden alle Spalten oder Zeilen mit <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> fest geleggelegten Wert <xref:System.Windows.Forms.SizeType.Percent> verwendet, um proportional den verbleibenden freien Speicherplatz zuzuordnen.</span><span class="sxs-lookup"><span data-stu-id="dde3c-114">3.  After space for all <xref:System.Windows.Forms.SizeType.Absolute> and <xref:System.Windows.Forms.SizeType.AutoSize> columns or rows is allocated, any columns or rows with <xref:System.Windows.Forms.TableLayoutStyle.SizeType%2A> set to <xref:System.Windows.Forms.SizeType.Percent> are used to proportionally allocate the remaining free space</span></span>|  
+|`true`|<span data-ttu-id="dde3c-115">Ähnlich wie bei der vorherigen Interaktion, mit der Ausnahme, dass <xref:System.Windows.Forms.SizeType.Percent> Spalten oder Zeilen einen automatischen Größen Anpassungs Aspekt erhalten.</span><span class="sxs-lookup"><span data-stu-id="dde3c-115">Similar to the previous interaction, with the exception that <xref:System.Windows.Forms.SizeType.Percent> columns or rows acquire an automatic sizing aspect.</span></span><br /><br /> <span data-ttu-id="dde3c-116">Mit dem- <xref:System.Windows.Forms.TableLayoutPanel> Steuerelement wird die Spalte oder Zeile erweitert, um ausreichenden freien Speicherplatz zu schaffen, sodass keine Spalte oder Zeile mit Formatvorlagen für <xref:System.Windows.Forms.SizeType.Percent> den Inhalt angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="dde3c-116">The <xref:System.Windows.Forms.TableLayoutPanel> control expands the column or row to create adequate free space, so that no column or row with <xref:System.Windows.Forms.SizeType.Percent> styling clips its contents.</span></span> <span data-ttu-id="dde3c-117">Das- <xref:System.Windows.Forms.TableLayoutPanel> Steuerelement ordnet den neuen Platz proportional entsprechend der- <xref:System.Windows.Forms.ColumnStyle.Width%2A> Eigenschaft oder der-Eigenschaft zu <xref:System.Windows.Forms.RowStyle.Height%2A> .</span><span class="sxs-lookup"><span data-stu-id="dde3c-117">The <xref:System.Windows.Forms.TableLayoutPanel> control allocates the new space proportionally according to the <xref:System.Windows.Forms.ColumnStyle.Width%2A> or <xref:System.Windows.Forms.RowStyle.Height%2A> property.</span></span>|  
+  
+## <a name="see-also"></a><span data-ttu-id="dde3c-118">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="dde3c-118">See also</span></span>
+
+- <xref:System.Windows.Forms.TableLayoutPanel>
+- [<span data-ttu-id="dde3c-119">Übersicht über das TableLayoutPanel-Steuerelement</span><span class="sxs-lookup"><span data-stu-id="dde3c-119">TableLayoutPanel Control Overview</span></span>](tablelayoutpanel-control-overview.md)

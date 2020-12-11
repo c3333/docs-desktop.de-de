@@ -1,0 +1,33 @@
+---
+title: Durch geänderte Eigenschaften ausgelöste Ereignisse
+ms.date: 03/30/2017
+dev_langs:
+- csharp
+- vb
+helpviewer_keywords:
+- custom controls [Windows Forms], property changes (using code)
+- properties [Windows Forms], changes
+ms.assetid: 268039ec-5aaa-4d76-b902-acccb036c850
+ms.openlocfilehash: 939972713ad95e9302c436268f4a6288a659ca6e
+ms.sourcegitcommit: 9f6df084c53a3da0ea657ed0d708a72213683084
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96976952"
+---
+# <a name="property-changed-events"></a><span data-ttu-id="01389-102">Durch geänderte Eigenschaften ausgelöste Ereignisse</span><span class="sxs-lookup"><span data-stu-id="01389-102">Property-Changed Events</span></span>
+
+<span data-ttu-id="01389-103">Wenn Sie möchten, dass das Steuerelement Benachrichtigungen sendet, wenn eine Eigenschaft namens *propertyName* geändert wird, definieren Sie ein Ereignis namens *propertyName* `Changed` und eine Methode namens `On` *propertyName* `Changed` , mit der das Ereignis ausgelöst wird.</span><span class="sxs-lookup"><span data-stu-id="01389-103">If you want your control to send notifications when a property named *PropertyName* changes, define an event named *PropertyName*`Changed` and a method named `On`*PropertyName*`Changed` that raises the event.</span></span> <span data-ttu-id="01389-104">Die Benennungs Konvention in Windows Forms besteht darin, das *geänderte* Wort an den Namen der Eigenschaft anzufügen.</span><span class="sxs-lookup"><span data-stu-id="01389-104">The naming convention in Windows Forms is to append the word *Changed* to the name of the property.</span></span> <span data-ttu-id="01389-105">Der zugeordnete Ereignisdelegattyp für geänderte Ereignisse der Eigenschaft ist <xref:System.EventHandler> , und der Ereignis Datentyp ist <xref:System.EventArgs> .</span><span class="sxs-lookup"><span data-stu-id="01389-105">The associated event delegate type for property-changed events is <xref:System.EventHandler>, and the event data type is <xref:System.EventArgs>.</span></span> <span data-ttu-id="01389-106">Die-Basisklasse <xref:System.Windows.Forms.Control> definiert viele Eigenschaften geänderte Ereignisse, wie z <xref:System.Windows.Forms.Control.BackColorChanged> <xref:System.Windows.Forms.Control.BackgroundImageChanged> . b.,, <xref:System.Windows.Forms.Control.FontChanged> , <xref:System.Windows.Forms.Control.LocationChanged> und andere.</span><span class="sxs-lookup"><span data-stu-id="01389-106">The base class <xref:System.Windows.Forms.Control> defines many property-changed events, such as <xref:System.Windows.Forms.Control.BackColorChanged>, <xref:System.Windows.Forms.Control.BackgroundImageChanged>, <xref:System.Windows.Forms.Control.FontChanged>, <xref:System.Windows.Forms.Control.LocationChanged>, and others.</span></span> <span data-ttu-id="01389-107">Hintergrundinformationen zu Ereignissen finden Sie unter [Ereignisse](/dotnet/standard/events/index) und [Ereignisse in Windows Forms](events-in-windows-forms-controls.md)-Steuerelementen.</span><span class="sxs-lookup"><span data-stu-id="01389-107">For background information about events, see [Events](/dotnet/standard/events/index) and [Events in Windows Forms Controls](events-in-windows-forms-controls.md).</span></span>  
+  
+ <span data-ttu-id="01389-108">Eigenschaften geänderte Ereignisse sind nützlich, da Sie Benutzern eines Steuer Elements das Anfügen von Ereignis Handlern gestatten, die auf die Änderung reagieren.</span><span class="sxs-lookup"><span data-stu-id="01389-108">Property-changed events are useful because they allow consumers of a control to attach event handlers that respond to the change.</span></span> <span data-ttu-id="01389-109">Wenn das Steuerelement auf ein durch die Anwendung geändertes Ereignis reagieren muss, überschreiben Sie die entsprechende `On` *propertyName* - `Changed` Methode, anstatt einen Delegaten an das Ereignis anzufügen.</span><span class="sxs-lookup"><span data-stu-id="01389-109">If your control needs to respond to a property-changed event that it raises, override the corresponding `On`*PropertyName*`Changed` method instead of attaching a delegate to the event.</span></span> <span data-ttu-id="01389-110">Ein Steuerelement antwortet in der Regel auf ein Ereignis, das durch eine Eigenschaft geändert wurde, indem andere Eigenschaften aktualisiert werden oder ein Teil oder die gesamte Zeichen Oberfläche neu gezeichnet wird.</span><span class="sxs-lookup"><span data-stu-id="01389-110">A control typically responds to a property-changed event by updating other properties or by redrawing some or all of its drawing surface.</span></span>  
+  
+ <span data-ttu-id="01389-111">Das folgende Beispiel zeigt, wie das `FlashTrackBar` benutzerdefinierte Steuerelement auf einige der durch die Eigenschaften geänderten Ereignisse reagiert, von denen es erbt <xref:System.Windows.Forms.Control> .</span><span class="sxs-lookup"><span data-stu-id="01389-111">The following example shows how the `FlashTrackBar` custom control responds to some of the property-changed events that it inherits from <xref:System.Windows.Forms.Control>.</span></span> <span data-ttu-id="01389-112">Das komplette Beispiel finden Sie unter Gewusst [wie: Erstellen eines Windows Forms Steuer Elements, das den Fortschritt anzeigt](how-to-create-a-windows-forms-control-that-shows-progress.md).</span><span class="sxs-lookup"><span data-stu-id="01389-112">For the complete sample, see [How to: Create a Windows Forms Control That Shows Progress](how-to-create-a-windows-forms-control-that-shows-progress.md).</span></span>  
+  
+ [!code-csharp[System.Windows.Forms.FlashTrackBar#2](~/samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms.FlashTrackBar/CS/FlashTrackBar.cs#2)]
+ [!code-vb[System.Windows.Forms.FlashTrackBar#2](~/samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.FlashTrackBar/VB/FlashTrackBar.vb#2)]  
+  
+## <a name="see-also"></a><span data-ttu-id="01389-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="01389-113">See also</span></span>
+
+- [<span data-ttu-id="01389-114">Ereignisse</span><span class="sxs-lookup"><span data-stu-id="01389-114">Events</span></span>](/dotnet/standard/events/index)
+- [<span data-ttu-id="01389-115">Ereignisse in Windows Forms-Steuerelementen</span><span class="sxs-lookup"><span data-stu-id="01389-115">Events in Windows Forms Controls</span></span>](events-in-windows-forms-controls.md)
+- [<span data-ttu-id="01389-116">Eigenschaften von Windows Forms-Steuerelementen</span><span class="sxs-lookup"><span data-stu-id="01389-116">Properties in Windows Forms Controls</span></span>](properties-in-windows-forms-controls.md)
