@@ -1,0 +1,158 @@
+---
+title: Codeverzeichnis für DataGridView-Steuerelementcode
+ms.date: 03/30/2017
+helpviewer_keywords:
+- data grids [Windows Forms], examples
+- examples [Windows Forms], DataGridView control
+- DataGridView control [Windows Forms], examples
+- DataGridView control [Windows Forms], code directory
+ms.assetid: ea8bd66a-5ed6-491b-b9da-63873e275a0a
+ms.openlocfilehash: abc4dad66ef2c89fe7937cbfffd047bc1f6a9811
+ms.sourcegitcommit: 9f6df084c53a3da0ea657ed0d708a72213683084
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96972168"
+---
+# <a name="datagridview-control-code-directory-windows-forms"></a><span data-ttu-id="0d107-102">Codeverzeichnis für DataGridView-Steuerelementcode (Windows Forms)</span><span class="sxs-lookup"><span data-stu-id="0d107-102">DataGridView Control Code Directory (Windows Forms)</span></span>
+<span data-ttu-id="0d107-103">Dieses Thema enthält Links zu <xref:System.Windows.Forms.DataGridView> -bezogenen Codebeispielen, die in der-Dokumentation zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="0d107-103">This topic provides links to <xref:System.Windows.Forms.DataGridView>-related code examples available in the documentation.</span></span>  
+  
+> [!NOTE]
+> <span data-ttu-id="0d107-104">Ein Link springt immer zum Anfang des Themas, in dem sich das Codebeispiel befindet.</span><span class="sxs-lookup"><span data-stu-id="0d107-104">A link always jumps to the top of the topic in which the code example is found.</span></span>  
+  
+ <span data-ttu-id="0d107-105">Weitere Codebeispiele finden Sie in der Referenz Dokumentation zur-Klassenbibliothek.</span><span class="sxs-lookup"><span data-stu-id="0d107-105">Additional code examples are available in the class library reference documentation.</span></span> <span data-ttu-id="0d107-106">Eine Liste der Prinzipal Klassen und Schnittstellen, die dem Steuerelement zugeordnet sind <xref:System.Windows.Forms.DataGridView> , finden Sie in der Tabelle im [DataGridView-Steuerelement Technologie Übersicht](datagridview-control-technology-summary-windows-forms.md).</span><span class="sxs-lookup"><span data-stu-id="0d107-106">For a list of the principal classes and interfaces associated with the <xref:System.Windows.Forms.DataGridView> control, see the table in [DataGridView Control Technology Summary](datagridview-control-technology-summary-windows-forms.md).</span></span>  
+  
+## <a name="codelist"></a><span data-ttu-id="0d107-107">CodeList</span><span class="sxs-lookup"><span data-stu-id="0d107-107">CodeList</span></span>  
+  
+## <a name="unbound-data-examples"></a><span data-ttu-id="0d107-108">Beispiele für ungebundene Daten</span><span class="sxs-lookup"><span data-stu-id="0d107-108">Unbound Data Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-109">Vorgehensweise: Hinzufügen einer ungebundenen Spalte zu einem datengebundenen DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-109">How to: Add an Unbound Column to a Data-Bound Windows Forms DataGridView Control</span></span>](unbound-column-to-a-data-bound-datagridview.md)  
+  
+- [<span data-ttu-id="0d107-110">Vorgehensweise: Erstellen eines ungebundenen DataGridView-Steuerelements in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-110">How to: Create an Unbound Windows Forms DataGridView Control</span></span>](how-to-create-an-unbound-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-111">Exemplarische Vorgehensweise: Erstellen eines ungebundenen DataGridView-Steuerelements in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-111">Walkthrough: Creating an Unbound Windows Forms DataGridView Control</span></span>](walkthrough-creating-an-unbound-windows-forms-datagridview-control.md)  
+  
+## <a name="data-binding-examples"></a><span data-ttu-id="0d107-112">Beispiele für die Datenbindung</span><span class="sxs-lookup"><span data-stu-id="0d107-112">Data Binding Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-113">Gewusst wie: Binden von Daten an das DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-113">How to: Bind Data to the Windows Forms DataGridView Control</span></span>](how-to-bind-data-to-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-114">Vorgehensweise: Automatisches Generieren von Spalten in einem datengebundenen DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-114">How to: Autogenerate Columns in a Data-Bound Windows Forms DataGridView Control</span></span>](autogenerate-columns-in-a-data-bound-wf-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-115">Vorgehensweise: Entfernen von automatisch generierten Spalten aus einem DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-115">How to: Remove Autogenerated Columns from a Windows Forms DataGridView Control</span></span>](remove-autogenerated-columns-from-a-wf-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-116">Vorgehensweise: Binden von Objekten an das DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-116">How to: Bind Objects to Windows Forms DataGridView Controls</span></span>](how-to-bind-objects-to-windows-forms-datagridview-controls.md)  
+  
+- [<span data-ttu-id="0d107-117">Gewusst wie: Aufrufen von Objekten, die an DataGridView-Zeilen in Windows Forms gebunden sind</span><span class="sxs-lookup"><span data-stu-id="0d107-117">How to: Access Objects Bound to Windows Forms DataGridView Rows</span></span>](how-to-access-objects-bound-to-windows-forms-datagridview-rows.md)  
+  
+- [<span data-ttu-id="0d107-118">Vorgehensweise: Erstellen eines Master-/Detailformulars mit zwei DataGridView-Steuerelementen in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-118">How to: Create a Master/Detail Form Using Two Windows Forms DataGridView Controls</span></span>](create-a-master-detail-form-using-two-datagridviews.md)  
+  
+- [<span data-ttu-id="0d107-119">Exemplarische Vorgehensweise: Erstellen eines Master-/Detailformulars mit zwei DataGridView-Steuerelementen in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-119">Walkthrough: Creating a Master/Detail Form Using Two Windows Forms DataGridView Controls</span></span>](creating-a-master-detail-form-using-two-datagridviews.md)  
+  
+## <a name="data-formatting-examples"></a><span data-ttu-id="0d107-120">Beispiele für die Datenformatierung</span><span class="sxs-lookup"><span data-stu-id="0d107-120">Data Formatting Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-121">Vorgehensweise: Formatieren von Daten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-121">How to: Format Data in the Windows Forms DataGridView Control</span></span>](how-to-format-data-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-122">Gewusst wie: Anpassen der Datenformatierung im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-122">How to: Customize Data Formatting in the Windows Forms DataGridView Control</span></span>](how-to-customize-data-formatting-in-the-windows-forms-datagridview-control.md)  
+  
+## <a name="data-validation-examples"></a><span data-ttu-id="0d107-123">Beispiele für die Datenvalidierung</span><span class="sxs-lookup"><span data-stu-id="0d107-123">Data Validation Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-124">Vorgehensweise: Überprüfen von Daten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-124">How to: Validate Data in the Windows Forms DataGridView Control</span></span>](how-to-validate-data-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-125">Exemplarische Vorgehensweise: Validieren von Daten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-125">Walkthrough: Validating Data in the Windows Forms DataGridView Control</span></span>](walkthrough-validating-data-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-126">Vorgehensweise: Behandeln von Fehlern, die während der Dateneingabe im DataGridView-Steuerelement in Windows Forms auftreten</span><span class="sxs-lookup"><span data-stu-id="0d107-126">How to: Handle Errors That Occur During Data Entry in the Windows Forms DataGridView Control</span></span>](handle-errors-that-occur-during-data-entry-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-127">Exemplarische Vorgehensweise: Behandeln von Fehlern, die während der Dateneingabe im DataGridView-Steuerelement in Windows Forms auftreten</span><span class="sxs-lookup"><span data-stu-id="0d107-127">Walkthrough: Handling Errors that Occur During Data Entry in the Windows Forms DataGridView Control</span></span>](handling-errors-that-occur-during-data-entry-in-the-datagrid.md)  
+  
+## <a name="appearance-customization-examples"></a><span data-ttu-id="0d107-128">Beispiele zur Anpassung der Darstellung</span><span class="sxs-lookup"><span data-stu-id="0d107-128">Appearance Customization Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-129">Vorgehensweise: Ändern des Rahmen- und Rasterlinienstils im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-129">How to: Change the Border and Gridline Styles in the Windows Forms DataGridView Control</span></span>](change-the-border-and-gridline-styles-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-130">Gewusst wie: Festlegen von Schriftart- und Farbstilen im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-130">How to: Set Font and Color Styles in the Windows Forms DataGridView Control</span></span>](how-to-set-font-and-color-styles-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-131">Vorgehensweise: Festlegen von Standardzellenformaten für das DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-131">How to: Set Default Cell Styles for the Windows Forms DataGridView Control</span></span>](how-to-set-default-cell-styles-for-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-132">Vorgehensweise: Verwenden der Zeilenvorlage zum Anpassen von Zeilen im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-132">How to: Use the Row Template to Customize Rows in the Windows Forms DataGridView Control</span></span>](use-the-row-template-to-customize-rows-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-133">Vorgehensweise: Festlegen von abwechselnden Zeilenstilen für das DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-133">How to: Set Alternating Row Styles for the Windows Forms DataGridView Control</span></span>](how-to-set-alternating-row-styles-for-the-windows-forms-datagridview-control.md)  
+  
+## <a name="behavior-customization-examples"></a><span data-ttu-id="0d107-134">Beispiele für die Verhaltens Anpassung</span><span class="sxs-lookup"><span data-stu-id="0d107-134">Behavior Customization Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-135">Vorgehensweise: Festlegen des Bearbeitungsmodus für das DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-135">How to: Specify the Edit Mode for the Windows Forms DataGridView Control</span></span>](how-to-specify-the-edit-mode-for-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-136">Vorgehensweise: Angeben von Standardwerten für neue Zeilen im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-136">How to: Specify Default Values for New Rows in the Windows Forms DataGridView Control</span></span>](specify-default-values-for-new-rows-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-137">Vorgehensweise: Verhindern, das Zeilen im DataGridView-Steuerelement in Windows Forms hinzugefügt und gelöscht werden</span><span class="sxs-lookup"><span data-stu-id="0d107-137">How to: Prevent Row Addition and Deletion in the Windows Forms DataGridView Control</span></span>](prevent-row-addition-and-deletion-datagridview.md)  
+  
+- [<span data-ttu-id="0d107-138">Vorgehensweise: Ausführen einer benutzerdefinierten Aktion aufgrund von Änderungen in einer Zelle des DataGridView-Steuerelements in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-138">How to: Perform a Custom Action Based on Changes in a Cell of a Windows Forms DataGridView Control</span></span>](perform-a-custom-action-based-on-changes-in-a-cell-of-a-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-139">Vorgehensweise: Festlegen, dass mehrere Zellen aus dem DataGridView-Steuerelement in Windows Forms in die Zwischenablage kopiert werden können</span><span class="sxs-lookup"><span data-stu-id="0d107-139">How to: Enable Users to Copy Multiple Cells to the Clipboard from the Windows Forms DataGridView Control</span></span>](enable-users-to-copy-multiple-cells-to-the-clipboard-datagridview.md)  
+  
+- [<span data-ttu-id="0d107-140">Gewusst wie: Hinzufügen von QuickInfos zu einzelnen Zellen in einem DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-140">How to: Add ToolTips to Individual Cells in a Windows Forms DataGridView Control</span></span>](add-tooltips-to-individual-cells-in-a-wf-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-141">Vorgehensweise: Anzeigen von Bildern in Zellen des DataGridView-Steuerelements in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-141">How to: Display Images in Cells of the Windows Forms DataGridView Control</span></span>](how-to-display-images-in-cells-of-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-142">Gewusst wie: Anpassen der Sortierung im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-142">How to: Customize Sorting in the Windows Forms DataGridView Control</span></span>](how-to-customize-sorting-in-the-windows-forms-datagridview-control.md)  
+  
+## <a name="column-manipulation-examples"></a><span data-ttu-id="0d107-143">Beispiele für die Spalten Bearbeitung</span><span class="sxs-lookup"><span data-stu-id="0d107-143">Column Manipulation Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-144">Vorgehensweise: Fixieren von Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-144">How to: Freeze Columns in the Windows Forms DataGridView Control</span></span>](how-to-freeze-columns-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-145">Vorgehensweise: Aktivieren der Neuanordnung von Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-145">How to: Enable Column Reordering in the Windows Forms DataGridView Control</span></span>](how-to-enable-column-reordering-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-146">Vorgehensweise: Ändern der Reihenfolge von Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-146">How to: Change the Order of Columns in the Windows Forms DataGridView Control</span></span>](how-to-change-the-order-of-columns-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-147">Vorgehensweise: Ausblenden von Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-147">How to: Hide Columns in the Windows Forms DataGridView Control</span></span>](how-to-hide-columns-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-148">Vorgehensweise: Ausblenden von Spaltenheadern im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-148">How to: Hide Column Headers in the Windows Forms DataGridView Control</span></span>](how-to-hide-column-headers-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-149">Vorgehensweise: Zuweisen von schreibgeschützten Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-149">How to: Make Columns Read-Only in the Windows Forms DataGridView Control</span></span>](how-to-make-columns-read-only-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-150">Vorgehensweise: Festlegen der Sortierungsmodi für Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-150">How to: Set the Sort Modes for Columns in the Windows Forms DataGridView Control</span></span>](set-the-sort-modes-for-columns-wf-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-151">Vorgehensweise: Arbeiten mit Bildspalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-151">How to: Work with Image Columns in the Windows Forms DataGridView Control</span></span>](how-to-work-with-image-columns-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-152">Vorgehensweise: Bearbeiten von Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-152">How to: Manipulate Columns in the Windows Forms DataGridView Control</span></span>](how-to-manipulate-columns-in-the-windows-forms-datagridview-control.md)  
+  
+## <a name="row-and-column-sizing-examples"></a><span data-ttu-id="0d107-153">Beispiele für Zeilen-und Spaltengrößen</span><span class="sxs-lookup"><span data-stu-id="0d107-153">Row and Column Sizing Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-154">Spaltenfüllmodus im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-154">Column Fill Mode in the Windows Forms DataGridView Control</span></span>](column-fill-mode-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-155">Gewusst wie: Festlegen der Größenanpassungsmodi des DataGridView-Steuerelements in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-155">How to: Set the Sizing Modes of the Windows Forms DataGridView Control</span></span>](how-to-set-the-sizing-modes-of-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-156">Vorgehensweise: Programmgesteuertes Anpassen der Zellengröße an den Inhalt im DataGridView-Steuerelement von Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-156">How to: Programmatically Resize Cells to Fit Content in the Windows Forms DataGridView Control</span></span>](programmatically-resize-cells-to-fit-content-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-157">Gewusst wie: Automatisches Anpassen der Zellengröße bei Änderungen des Inhalts im DataGridView-Steuerelement von Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-157">How to: Automatically Resize Cells When Content Changes in the Windows Forms DataGridView Control</span></span>](automatically-resize-cells-when-content-changes-in-the-datagrid.md)  
+  
+## <a name="selection-examples"></a><span data-ttu-id="0d107-158">Auswahl Beispiele</span><span class="sxs-lookup"><span data-stu-id="0d107-158">Selection Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-159">Vorgehensweise: Festlegen des Auswahlmodus des DataGridView-Steuerelements in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-159">How to: Set the Selection Mode of the Windows Forms DataGridView Control</span></span>](how-to-set-the-selection-mode-of-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-160">Vorgehensweise: Abrufen der ausgewählten Zellen, Zeilen und Spalten im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-160">How to: Get the Selected Cells, Rows, and Columns in the Windows Forms DataGridView Control</span></span>](selected-cells-rows-and-columns-datagridview.md)  
+  
+- [<span data-ttu-id="0d107-161">Gewusst wie: Abrufen und Festlegen der aktuellen Zelle im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-161">How to: Get and Set the Current Cell in the Windows Forms DataGridView Control</span></span>](get-and-set-the-current-cell-wf-datagridview-control.md)  
+  
+## <a name="advanced-customization-examples"></a><span data-ttu-id="0d107-162">Beispiele für die erweiterte Anpassung</span><span class="sxs-lookup"><span data-stu-id="0d107-162">Advanced Customization Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-163">Gewusst wie: Anpassen der Darstellung von Zellen im DataGridView-Steuerelement von Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-163">How to: Customize the Appearance of Cells in the Windows Forms DataGridView Control</span></span>](customize-the-appearance-of-cells-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-164">Vorgehensweise: Anpassen der Darstellung von Zeilen im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-164">How to: Customize the Appearance of Rows in the Windows Forms DataGridView Control</span></span>](customize-the-appearance-of-rows-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-165">Vorgehensweise: Anpassen von Zellen und Spalten im DataGridView-Steuerelement in Windows Forms durch Erweitern des Aussehens und Verhaltens</span><span class="sxs-lookup"><span data-stu-id="0d107-165">How to: Customize Cells and Columns in the Windows Forms DataGridView Control by Extending Their Behavior and Appearance</span></span>](customize-cells-and-columns-in-the-datagrid-by-extending-behavior.md)  
+  
+- [<span data-ttu-id="0d107-166">Vorgehensweise: Deaktivieren von Schaltflächen in einer Schaltflächenspalte im DataGridView-Steuerelement von Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-166">How to: Disable Buttons in a Button Column in the Windows Forms DataGridView Control</span></span>](disable-buttons-in-a-button-column-in-the-datagrid.md)  
+  
+- [<span data-ttu-id="0d107-167">Vorgehensweise: Hosten von Steuerelementen in DataGridView-Zellen in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-167">How to: Host Controls in Windows Forms DataGridView Cells</span></span>](how-to-host-controls-in-windows-forms-datagridview-cells.md)  
+  
+## <a name="advanced-data-examples"></a><span data-ttu-id="0d107-168">Beispiele für erweiterte Daten</span><span class="sxs-lookup"><span data-stu-id="0d107-168">Advanced Data Examples</span></span>  
+  
+- [<span data-ttu-id="0d107-169">Vorgehensweise: Implementieren des virtuellen Modus im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-169">How to: Implement Virtual Mode in the Windows Forms DataGridView Control</span></span>](how-to-implement-virtual-mode-in-the-windows-forms-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-170">Exemplarische Vorgehensweise: Implementieren des virtuellen Modus im DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-170">Walkthrough: Implementing Virtual Mode in the Windows Forms DataGridView Control</span></span>](implementing-virtual-mode-wf-datagridview-control.md)  
+  
+- [<span data-ttu-id="0d107-171">Implementieren des virtuellen Modus mit Just-In-Time-Laden von Daten in das DataGridView-Steuerelement in Windows Forms</span><span class="sxs-lookup"><span data-stu-id="0d107-171">Implementing Virtual Mode with Just-In-Time Data Loading in the Windows Forms DataGridView Control</span></span>](implementing-virtual-mode-jit-data-loading-in-the-datagrid.md)  
+  
+## <a name="see-also"></a><span data-ttu-id="0d107-172">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0d107-172">See also</span></span>
+
+- <xref:System.Windows.Forms.DataGridView>
+- [<span data-ttu-id="0d107-173">Übersicht über das DataGridView-Steuerelement</span><span class="sxs-lookup"><span data-stu-id="0d107-173">DataGridView Control Overview</span></span>](datagridview-control-overview-windows-forms.md)
