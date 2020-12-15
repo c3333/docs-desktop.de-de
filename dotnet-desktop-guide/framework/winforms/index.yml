@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: .NET-Desktopleitfaden für Windows Forms
+summary: Hier lernen Sie Windows Forms (WinForms), eine grafische Benutzeroberfläche für Windows und .NET Framework, kennen.
+metadata:
+  title: Dokumentation zu Windows Forms für .NET
+  description: Hier lernen Sie Windows Forms (WinForms), eine grafische Benutzeroberfläche für Windows und .NET Framework, kennen.
+  ms.topic: landing-page
+  ms.date: 08/30/2020
+  ms.openlocfilehash: 34af1d837c7e886a92b441ec51d2b82075b49589
+  ms.sourcegitcommit: 9f6df084c53a3da0ea657ed0d708a72213683084
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 12/09/2020
+  ms.locfileid: "96992794"
+landingContent:
+- title: WinForms für .NET Framework
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Übersicht über Windows Forms
+      url: windows-forms-overview.md
+  - linkListType: get-started
+    links:
+    - text: Erste Schritte mit dem Windows Forms-Designer
+      url: /visualstudio/designers/walkthrough-windows-forms-designer
+    - text: Erstellen einer Windows Forms-Anwendung über die Befehlszeile
+      url: how-to-create-a-windows-forms-application-from-the-command-line.md
+- title: Steuerelemente
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Entwickeln eigener Steuerelemente
+      url: controls/developing-windows-forms-controls-at-design-time.md
+    - text: Entwickeln von Steuerelementen
+      url: controls/developing-windows-forms-controls-at-design-time.md
+  - linkListType: how-to-guide
+    links:
+    - text: Hinzufügen von Steuerelementen zu Windows Forms
+      url: controls/how-to-add-controls-to-windows-forms.md
+    - text: Positionieren von Steuerelementen in Windows Forms
+      url: controls/how-to-position-controls-on-windows-forms.md
+  - linkListType: reference
+    links:
+    - text: Windows Forms-Steuerelemente nach Funktion
+      url: controls/windows-forms-controls-by-function.md
+- title: Ereignisse
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Ereignisse in Windows Forms
+      url: events-overview-windows-forms.md
+    - text: Ereignishandler in Windows Forms
+      url: event-handlers-overview-windows-forms.md
+  - linkListType: concept
+    links:
+    - text: Reihenfolge, in der Ereignisse ausgelöst werden
+      url: order-of-events-in-windows-forms.md
+- title: Eingabe
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Informationen über Tastatureingabe
+      url: how-keyboard-input-works.md
+    - text: Informationen über Mauseingabe
+      url: how-mouse-input-works-in-windows-forms.md
+  - linkListType: concept
+    links:
+    - text: Tastaturereignisse
+      url: using-keyboard-events.md
+    - text: Mausereignisse
+      url: mouse-events-in-windows-forms.md
+    - text: Mauszeiger
+      url: mouse-pointers-in-windows-forms.md
+  - linkListType: how-to-guide
+    links:
+    - text: Ändern der Tastatureingabe
+      url: how-to-modify-keyboard-input-to-a-standard-control.md
+    - text: Erkennen von Zusatztasten
+      url: how-to-determine-which-modifier-key-was-pressed.md
+    - text: Unterscheiden zwischen Klicks und Doppelklicks
+      url: how-to-distinguish-between-clicks-and-double-clicks.md

@@ -1,0 +1,85 @@
+### YamlMime:Landing
+title: Dokumentation zu Windows Forms
+summary: Hier erfahren Sie mehr über die Verwendung von Windows Forms, einer grafischen Open-Source-Benutzeroberfläche für Windows in .NET 5.
+metadata:
+  title: Dokumentation zu Windows Forms für .NET 5
+  description: Hier erfahren Sie mehr über die Verwendung von Windows Forms, einer grafischen Open-Source-Benutzeroberfläche für Windows in .NET 5.
+  ms.topic: landing-page
+  ms.date: 10/26/2020
+  ms.openlocfilehash: 1b8bc1cfa7655a33819c77ba4d5af75f7c838e74
+  ms.sourcegitcommit: 9f6df084c53a3da0ea657ed0d708a72213683084
+  ms.translationtype: HT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 12/09/2020
+  ms.locfileid: "96992866"
+landingContent:
+- title: Informationen zu Windows Forms
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Neues
+      url: whats-new/index.md
+  - linkListType: overview
+    links:
+    - text: Übersicht über Windows Forms
+      url: overview/index.md
+  - linkListType: tutorial
+    links:
+    - text: Erstellen einer neuen App
+      url: get-started/create-app-visual-studio.md
+    - text: Migration von .NET Framework
+      url: migration/index.md
+  - linkListType: download
+    links:
+    - text: Visual Studio 2019, Version 16.8
+      url: https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019+desktopguide+winforms
+- title: Steuerelemente
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Informationen zu Steuerelementen
+      url: controls/overview.md
+  - linkListType: concept
+    links:
+    - text: Layout
+      url: controls/layout.md
+  - linkListType: how-to-guide
+    links:
+    - text: Hinzufügen eines Steuerelements
+      url: controls/how-to-add-to-a-form.md
+    - text: Hinzufügen von Zugriffsschlüsseln (Tastenkombinationen)
+      url: controls/how-to-create-access-keys.md
+- title: Tastatureingabe
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Informationen zur Tastatur
+      url: input-keyboard/overview.md
+  - linkListType: concept
+    links:
+    - text: Tastaturereignisse
+      url: input-keyboard/events.md
+  - linkListType: how-to-guide
+    links:
+    - text: Verarbeiten von Tastatureingaben
+      url: input-keyboard/how-to-handle-forms.md
+    - text: Ändern von Schlüsselereignissen
+      url: input-keyboard/how-to-change-key-press.md
+- title: Mauseingabe
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Informationen zur Maus
+      url: input-mouse/overview.md
+  - linkListType: concept
+    links:
+    - text: Mausereignisse
+      url: input-mouse/events.md
+    - text: Drag & Drop
+      url: input-mouse/drag-and-drop.md
+  - linkListType: how-to-guide
+    links:
+    - text: Verwalten des Cursors
+      url: input-mouse/how-to-manage-cursor-pointer.md
+    - text: Simulieren von Mausereignissen
+      url: input-mouse/how-to-simulate-events.md
