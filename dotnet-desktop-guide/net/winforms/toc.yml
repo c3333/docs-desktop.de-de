@@ -1,0 +1,87 @@
+items:
+  - name: Windows Forms für .NET
+    href: index.yml
+  - name: Neues
+    href: whats-new/index.md
+  - name: Erste Schritte
+    items:
+      - name: Übersicht
+        href: overview/index.md
+      - name: Erstellen einer App
+        href: get-started/create-app-visual-studio.md
+  - name: Migration
+    items:
+      - name: Migrieren zu .NET 5
+        href: migration/index.md
+  - name: Formulare
+    items:
+      - name: Ereignishandler
+        href: forms/events.md
+      - name: Autoskalierung
+        href: forms/autoscale.md
+      - name: Häufige Aufgaben
+        items:
+          - name: Ein Formular hinzufügen
+            href: forms/how-to-add.md
+          - name: Ändern der Größe eines Formulars
+            href: forms/how-to-position-and-resize.md
+          - name: Positionieren eines Formulars
+            href: forms/how-to-position-and-resize.md#position-with-the-designer
+  - name: Steuerelemente
+    items:
+      - name: Übersicht
+        href: controls/overview.md
+      - name: Layoutoptionen
+        href: controls/layout.md
+      - name: Bezeichnungen
+        href: controls/labels.md
+      - name: Benutzerdefinierte Steuerelemente
+        href: controls/custom.md
+      - name: Benutzerdefiniertes Zeichnen
+        href: controls/custom-painting-drawing.md
+      - name: Anwenden von Informationen zur Barrierefreiheit
+        href: controls/provide-accessibility-information.md
+      - name: Häufige Aufgaben
+        items:
+          - name: Hinzufügen eines Steuerelements zu einem Formular
+            href: controls/how-to-add-to-a-form.md
+          - name: Erstellen von Tastenkombinationen für Zugriffsschlüssel
+            href: controls/how-to-create-access-keys.md
+          - name: Festlegen des von einem Steuerelement angezeigten Texts
+            href: controls/how-to-set-the-display-text.md
+          - name: Festlegen des von einem Steuerelement angezeigten Bilds
+            href: controls/how-to-add-a-picture-to-a-control.md
+  - name: Benutzereingabe – Tastatur
+    items:
+      - name: Übersicht
+        href: input-keyboard/overview.md
+      - name: Verwenden von Tastaturereignissen
+        href: input-keyboard/events.md
+      - name: Überprüfen von Eingaben
+        href: input-keyboard/validation.md
+      - name: Häufige Aufgaben
+        items:
+          - name: Ändern der gedrückten Taste
+            href: input-keyboard/how-to-change-key-press.md
+          - name: 'Bestimmen, welche Zusatztaste gedrückt wurde'
+            href: input-keyboard/how-to-check-modifier-key.md
+          - name: Behandeln von Eingaben auf Formularebene
+            href: input-keyboard/how-to-handle-forms.md
+          - name: Simulieren von Tastaturereignissen
+            href: input-keyboard/how-to-simulate-events.md
+  - name: Benutzereingabe – Maus
+    items:
+      - name: Übersicht
+        href: input-mouse/overview.md
+      - name: Verwenden von Mausereignissen
+        href: input-mouse/events.md
+      - name: "Drag\_&\_Drop-Funktionen"
+        href: input-mouse/drag-and-drop.md
+      - name: Häufige Aufgaben
+        items:
+          - name: Unterscheiden zwischen Klicks und Doppelklicks
+            href: input-mouse/how-to-distinguish-between-clicks-and-double-clicks.md
+          - name: Steuern und Ändern des Mauszeigers
+            href: input-mouse/how-to-manage-cursor-pointer.md
+          - name: Simulieren von Mausereignissen
+            href: input-mouse/how-to-simulate-events.md

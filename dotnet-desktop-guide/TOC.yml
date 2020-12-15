@@ -1,0 +1,17 @@
+items:
+  - name: Windows Forms
+    expanded: true
+    items:
+      - name: ".NET\_5 (und .NET Core\_3.1)"
+        href: net/winforms/index.yml?view=netdesktop-5.0&preserve-view=true
+      - name: ".NET\_Framework"
+        href: framework/winforms/index.yml?view=netframeworkdesktop-4.8&preserve-view=true
+  - name: Windows Presentation Foundation
+    expanded: true
+    items:
+      - name: ".NET\_5 (und .NET Core\_3.1)"
+        href: net/wpf/index.yml?view=netdesktop-5.0&preserve-view=true
+      - name: ".NET\_Framework"
+        href: framework/wpf/index.md?view=netframeworkdesktop-4.8&preserve-view=true
+      - name: XAML-Sprachreferenz
+        href: xaml-services/?view=&preserve-view=true
